@@ -1,0 +1,6 @@
+name: React Elastic Search
+type: module
+description: Display elastic search result in react based twig.
+package: Search
+core: 8.x
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,3 @@
+react-elastic-search:
+  js:
+    js/dist/index.js: { preprocess: false }

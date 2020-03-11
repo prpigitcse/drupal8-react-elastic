@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for React Elastic Search module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+/**
+ * Implemets hook theme.
+ */
+function react_elastic_search_theme($existing, $type, $theme, $path) {
+   return [
+     'react_elastic_search' => [
+       'render element' => 'children',
+       'template' => 'react-elastic-search',
+     ],
+   ];
+}

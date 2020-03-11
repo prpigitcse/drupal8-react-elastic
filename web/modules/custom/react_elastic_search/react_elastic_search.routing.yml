@@ -1,0 +1,7 @@
+react_elastic_search.search:
+  path: '/react-elastic-search'
+  defaults:
+    _title: 'Search'
+    _controller: '\Drupal\react_elastic_search\Controller\ReactElasticSearchController::build'
+  requirements:
+    _permission: 'access content'
