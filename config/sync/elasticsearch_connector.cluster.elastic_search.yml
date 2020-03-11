@@ -1,0 +1,14 @@
+uuid: f2999e04-0041-4c1b-8492-e95bb35d3328
+langcode: en
+status: '1'
+dependencies: {  }
+cluster_id: elastic_search
+name: 'Elastic search'
+url: 'http://localhost:9200'
+options:
+  multiple_nodes_connection: false
+  use_authentication: 0
+  authentication_type: Basic
+  username: ''
+  password: ''
+  timeout: '3'
